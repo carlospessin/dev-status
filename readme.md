@@ -5,5 +5,5 @@
 ---
 
 <p align="center">
-  <img src="moveit-next/public/preview.png">
+  <img src="images/preview.png">
 </p>
