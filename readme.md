@@ -1,5 +1,5 @@
 <p align="center">
-  Projeto de visualização do progresso das aividades dos rogramadoress.
+  Projeto de visualização do progresso das aividades dos programadoress.
 </p>
 
 ---
