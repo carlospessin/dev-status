@@ -67,8 +67,8 @@
 
     </section>
   </main>
-  <div class="circle1"></div>
-  <div class="circle2"></div>
+  <!-- <div class="circle1"></div>
+  <div class="circle2"></div> -->
 
   <script>
     var widthValue = 0;
@@ -81,13 +81,13 @@
       var widthIncrement = 1;
       widthValue = widthAnim + widthIncrement;
       function frame() {
-        if (widthAnim >= widthValue || widthValue > 100) {
+        if (widthAnim >= widthValue || widthValue == 100) {
           clearInterval(id);
           //button.disabled = true;
         } else {
           widthAnim++;
           elem.style.width = widthAnim + '%';
-          percentage.innerHTML = widthAnim * 1 + '%';
+          percentage.innerHTML = widthAnim * 1 + ' pts';
         }
       }
     }
